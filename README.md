@@ -4,6 +4,9 @@ Bu proje, **React + Vite** kullanılarak yapılmış basit bir **mini kitaplık*
 Kullanıcı kitap arayabilir, kategoriye göre filtreleme yapabilir ve kitapları favorilere ekleyip çıkarabilir.  
 Favoriler ve arama geçmişi, **localStorage** sayesinde sayfa yenilendiğinde de korunur.
 
+## Canlı Demo
+
+Mini Kitaplık uygulamasını canlı olarak [buradan görüntüleyebilirsiniz](https://mini-kitaplik-q137b8onj-marias-projects-88b6a7b8.vercel.app).
 ---
 
 ## 🚀 Özellikler
