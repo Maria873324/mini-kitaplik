@@ -1,21 +1,29 @@
-<<<<<<< HEAD
-# React + Vite
+# 📚 Mini Kitaplık Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, **React + Vite** kullanılarak yapılmış basit bir **mini kitaplık** uygulamasıdır.  
+Kullanıcı kitap arayabilir, kategoriye göre filtreleme yapabilir ve kitapları favorilere ekleyip çıkarabilir.  
+Favoriler ve arama geçmişi, **localStorage** sayesinde sayfa yenilendiğinde de korunur.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Özellikler
 
-## React Compiler
+- 🔍 Arama kutusu ile kitap arama  
+- 🗂️ Kategoriye göre filtreleme  
+- ❤️ Favori kitap ekleme / kaldırma  
+- 💾 localStorage ile verilerin korunması  
+- 🎨 Şık ve sade kullanıcı arayüzü  
+  - Arka plan: `#0A192F`
+  - Vurgu rengi: `#0ef`
+  - Yazılar: beyaz
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# mini-kitaplik
-React + Vite ile yapılan mini kitaplık uygulaması
->>>>>>> bd2e60d9ed917002b47b61b0f8677ac2dee5af7c
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [CSS Modules] (veya sade CSS)
+- [localStorage API](https://developer.mozilla.org/docs/Web/API/Window/localStorage)
+   ```bash
+   git clone https://github.com/kullanici-adi/mini-kitaplik.git
