@@ -1,0 +1,172 @@
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0A192F;
+  color: white;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.app {
+  width: 850px;
+  background-color: #081b29;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #0ef;
+  padding: 25px 30px;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #0ef;
+  letter-spacing: 1px;
+}
+
+
+.ust {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  background: #081b29;
+  color: white;
+  border: 1px solid #0ef;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+  box-shadow: 0 0 10px #0ef;
+}
+
+
+.icerik {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+
+.kitap-liste {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.kitap-karti {
+  background: #081b29; 
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #0ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.kitap-karti:hover {
+  box-shadow: 0 0 10px #0ef;
+}
+
+.kitap-karti h3 {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}
+
+.kitap-karti p {
+  margin: 3px 0 0 0;
+  font-size: 13px;
+  color: #cfcfcf;
+}
+
+
+.favori-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #0ef;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.favori-btn:hover {
+  background: #0ef;
+  color: #081b29;
+  box-shadow: 0 0 10px #0ef;
+}
+
+.favori-btn.aktif {
+  background: #0ef;
+  color: #081b29;
+  font-weight: bold;
+}
+
+
+.favori-panel {
+  flex: 1;
+  background: #081b29; 
+  padding: 12px 15px;
+  border: 1px solid #0ef;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0ef;
+  min-width: 200px;
+}
+
+.favori-panel h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #0ef;
+}
+
+.favori-panel ul {
+  padding-left: 18px;
+  margin-top: 8px;
+}
+
+.favori-panel li {
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favori-panel button {
+  padding: 3px 7px;
+  border-radius: 6px;
+  border: 1px solid #0ef;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.favori-panel button:hover {
+  background: #0ef;
+  color: #081b29;
+  box-shadow: 0 0 8px #0ef;
+}
+
+
+
